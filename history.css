@@ -1,0 +1,101 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 1
+
+   History Style Sheet
+   Author: Adeel Ahmed
+   Date:   March-6, 2019
+
+   Filename:         history.css
+   Supporting Files: 
+
+*/
+
+header,
+section,
+nav {
+   display: block;
+}
+
+body * {
+   padding: 0px;
+   margin: 0px;
+}
+
+header {
+   background-color: rgb(51, 51, 51);
+   text-align: center;
+   width: 55em;
+}
+
+header img {
+   height: 4em;
+}
+
+.vertical {
+   float: left;
+   width: 15em;
+   background-color: rgb(51, 51, 51);
+}
+
+.vertical li {
+   font-family: 'Century Gothic', sans-serif;
+   font-size: 0.7em;
+   list-style: none;
+   line-height: 1.4em;
+   margin-left: 1em;
+   margin-bottom: 1.2em;
+}
+
+.vertical a {
+   color: rgb(212, 212, 212);
+   text-decoration: none;
+}
+
+.vertical a:hover {
+   color: white;
+}
+
+#speech {
+   background-color: rgb(212, 212, 212);
+   width: 40em;
+   float: left;
+   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif
+}
+
+#speech h1 {
+   background-color: rgb(51, 51, 51);
+   color: rgb(212, 212, 212);
+   font-size: 2em;
+   text-align: center;
+}
+
+#speech p{
+   font-size: 0.9em;
+   margin: 1em;
+}
+
+#speech>p:first-of-type:first-letter {
+   float: left;
+   font-size: 4em;
+   line-height: 0.8em;
+   margin-right: 0.1em;
+   padding-right: 0.08em;
+   padding-bottom: 0.1em;
+   border-right: solid 0.02em black;
+   border-bottom: solid 0.02em black;
+   box-shadow: 2px 2px #888888;
+}
+
+#speech p:first-of-type:first-line {
+   margin-left: 10px;
+   text-transform: uppercase;
+}
+
+#speech img {
+   word-wrap: break-word;
+   float: right;
+   clear: right;
+   height: 4em;
+}
